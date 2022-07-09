@@ -1,0 +1,51 @@
+/* Required for full background image */
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse ,.page-footer{
+  /* background-color: rgb(38, 188, 213) !important; */
+  background-color: rgb(50, 163, 215) !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: rgb(10, 214, 237) !important;
+  }
+}
+
+/* div上边距 */
+.divtop{
+margin-top: 25px;
+}
+
+.textleft{
+    text-align: left;
+}
+
+.rgba-gradient {
+   background-image: url('../image/hello.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+  
+.streak.streak-photo {
+  background-attachment: fixed;
+}
